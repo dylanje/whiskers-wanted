@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#d9c69c"/>
+  <ellipse cx="150" cy="130" rx="90" ry="50" fill="#f0e2c0"/>
+  <polygon points="100,100 112,70 130,105" fill="#f0e2c0"/>
+  <polygon points="200,100 188,70 170,105" fill="#f0e2c0"/>
+  <circle cx="125" cy="120" r="6" fill="#3a2e1f"/>
+  <circle cx="175" cy="120" r="6" fill="#3a2e1f"/>
+  <text x="150" y="195" font-family="Georgia, serif" font-size="16" fill="#3a2e1f" text-anchor="middle">Waffles, retired</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2d0a4"/>
+  <rect x="60" y="180" width="280" height="20" fill="#c98a4b"/>
+  <ellipse cx="200" cy="150" rx="130" ry="55" fill="#e8752c"/>
+  <circle cx="90" cy="150" r="45" fill="#e8752c"/>
+  <polygon points="65,120 75,90 95,125" fill="#e8752c"/>
+  <polygon points="115,120 105,90 85,125" fill="#e8752c"/>
+  <circle cx="75" cy="150" r="7" fill="#2b2118"/>
+  <circle cx="105" cy="150" r="7" fill="#2b2118"/>
+  <text x="200" y="260" font-family="Georgia, serif" font-size="20" fill="#4a3521" text-anchor="middle">Brisket, sunbeam acquired</text>
+</svg>

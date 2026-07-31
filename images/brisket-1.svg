@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f4a259"/>
+  <circle cx="200" cy="150" r="80" fill="#e8752c"/>
+  <polygon points="140,90 160,40 185,95" fill="#e8752c"/>
+  <polygon points="260,90 240,40 215,95" fill="#e8752c"/>
+  <circle cx="170" cy="150" r="10" fill="#2b2118"/>
+  <circle cx="230" cy="150" r="10" fill="#2b2118"/>
+  <polygon points="200,165 190,180 210,180" fill="#2b2118"/>
+  <text x="200" y="260" font-family="Georgia, serif" font-size="20" fill="#2b2118" text-anchor="middle">Brisket, looking unimpressed</text>
+</svg>

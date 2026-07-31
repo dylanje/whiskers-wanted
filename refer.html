@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refer a Feline — Whisker Wanted</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>🐾 Whisker Wanted</h1>
+  <p class="site-subtitle">One cat. One listing. Zero chill.</p>
+</header>
+
+<main>
+  <a class="back-home" href="index.html">&larr; Back to Whisker Wanted</a>
+
+  <section class="page-section">
+    <h2>Refer a Feline</h2>
+    <p>
+      Know a cat who needs a new home? Whether you're a foster, a rescue, or
+      someone whose circumstances changed, tell us about them below. We'll
+      follow up by email to talk next steps and, if it's a good fit, get them
+      their own listing.
+    </p>
+
+    <form class="contact-form" id="refer-form">
+      <div>
+        <label for="your-name">Your Name</label>
+        <input type="text" id="your-name" name="your-name" required>
+      </div>
+      <div>
+        <label for="your-email">Your Email</label>
+        <input type="email" id="your-email" name="your-email" required>
+      </div>
+      <div>
+        <label for="cat-name">Cat's Name</label>
+        <input type="text" id="cat-name" name="cat-name" required>
+      </div>
+      <div>
+        <label for="cat-location">City / Area</label>
+        <input type="text" id="cat-location" name="cat-location">
+      </div>
+      <div>
+        <label for="cat-story">Tell Us About Them</label>
+        <textarea id="cat-story" name="cat-story" placeholder="Age, personality, why they need a new home, any quirks we should know about..." required></textarea>
+      </div>
+      <button type="submit">Send Referral</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Made with love (and mild claw damage) for cats everywhere.</p>
+  <nav class="footer-links">
+    <a href="about.html">About</a>
+    <a href="donate.html">Donate</a>
+    <a href="refer.html">Refer a Feline</a>
+  </nav>
+</footer>
+
+<script>
+  const REFERRAL_EMAIL = "adopt@example.com";
+
+  document.getElementById("refer-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const yourName = document.getElementById("your-name").value;
+    const yourEmail = document.getElementById("your-email").value;
+    const catName = document.getElementById("cat-name").value;
+    const catLocation = document.getElementById("cat-location").value;
+    const catStory = document.getElementById("cat-story").value;
+
+    const subject = encodeURIComponent(`Cat referral: ${catName}`);
+    const body = encodeURIComponent(
+      `Referred by: ${yourName} (${yourEmail})\n` +
+      `Cat's name: ${catName}\n` +
+      `Location: ${catLocation || "Not provided"}\n\n` +
+      `Story:\n${catStory}`
+    );
+
+    window.location.href = `mailto:${REFERRAL_EMAIL}?subject=${subject}&body=${body}`;
+  });
+</script>
+
+</body>
+</html>

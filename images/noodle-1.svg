@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#f6e8d8"/>
+  <ellipse cx="150" cy="140" rx="95" ry="35" fill="#e0b088"/>
+  <circle cx="150" cy="140" r="8" fill="#5a3d28"/>
+  <circle cx="120" cy="130" r="6" fill="#5a3d28"/>
+  <circle cx="180" cy="130" r="6" fill="#5a3d28"/>
+  <text x="150" y="195" font-family="Georgia, serif" font-size="16" fill="#5a3d28" text-anchor="middle">Noodle, being a noodle</text>
+</svg>

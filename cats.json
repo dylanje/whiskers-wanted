@@ -1,0 +1,56 @@
+{
+  "current": {
+    "name": "Brisket",
+    "tagline": "Emotionally unavailable, financially high-maintenance, still an absolute catch",
+    "status": "available",
+    "adoptedDate": null,
+    "bio": "Brisket is a 4-year-old orange tabby with the confidence of a house cat who has never once considered that he might not be the main character. He enjoys long naps in sunbeams he did not earn, aggressive negotiations over canned food, and staring directly into your soul at 3am for reasons he will not disclose. He is looking for someone who understands that love is not about being liked back — it's about being fed on time, every time, no exceptions.",
+    "traits": [
+      "Purrs like a diesel engine, exclusively on his own schedule",
+      "Will headbutt you affectionately, then immediately regret it",
+      "Professional-grade sunbeam relocator",
+      "Fluent in judgmental silence",
+      "Excellent at knocking things off surfaces with scientific precision",
+      "Cuddles available between the hours of 9pm-9:15pm only"
+    ],
+    "redFlags": [
+      "Will make prolonged eye contact while pushing your favorite mug off the counter",
+      "Considers 5am zoomies a love language",
+      "Has strong, unspoken opinions about your other pets, your partner, and your life choices",
+      "May 'forget' he knows you exist if you leave for a weekend",
+      "Will sit on the one document you need right now",
+      "Emotionally unavailable except when there is turkey involved"
+    ],
+    "photos": [
+      "images/brisket-1.svg",
+      "images/brisket-2.svg",
+      "images/brisket-3.svg",
+      "images/brisket-4.svg",
+      "images/brisket-5.svg",
+      "images/brisket-6.svg"
+    ]
+  },
+  "archive": [
+    {
+      "name": "Waffles",
+      "tagline": "Professional loaf, part-time menace",
+      "photo": "images/waffles-1.svg",
+      "adoptedDate": "2026-03-14",
+      "blurb": "Waffles found his forever couch and has not moved since. Reports indicate he is thriving, mostly horizontally."
+    },
+    {
+      "name": "Sir Reginald Pumpkinbottom",
+      "tagline": "Aristocrat. Tyrant. Very good boy.",
+      "photo": "images/reginald-1.svg",
+      "adoptedDate": "2026-01-22",
+      "blurb": "Reginald now rules a household of two humans and a very patient golden retriever. Long may he reign."
+    },
+    {
+      "name": "Noodle",
+      "tagline": "98% vibes, 2% spine",
+      "photo": "images/noodle-1.svg",
+      "adoptedDate": "2025-11-05",
+      "blurb": "Noodle has successfully trained her new family to hand-deliver treats to the exact center of the bed."
+    }
+  ]
+}

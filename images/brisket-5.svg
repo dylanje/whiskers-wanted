@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#c9dcd6"/>
+  <ellipse cx="200" cy="230" rx="170" ry="18" fill="#3f7d72" opacity="0.25"/>
+  <ellipse cx="200" cy="195" rx="140" ry="35" fill="#e8752c"/>
+  <circle cx="200" cy="140" r="60" fill="#e8752c"/>
+  <polygon points="150,100 160,55 195,105" fill="#e8752c"/>
+  <polygon points="250,100 240,55 205,105" fill="#e8752c"/>
+  <path d="M165,140 Q175,132 185,140" stroke="#2b2118" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M215,140 Q225,132 235,140" stroke="#2b2118" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <polygon points="200,150 191,163 209,163" fill="#2b2118"/>
+  <text x="200" y="270" font-family="Georgia, serif" font-size="20" fill="#22332e" text-anchor="middle">Brisket, mid-loaf, fully committed</text>
+</svg>

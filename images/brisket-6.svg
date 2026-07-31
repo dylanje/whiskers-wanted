@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f4d9a0"/>
+  <circle cx="200" cy="150" r="95" fill="#e8752c"/>
+  <polygon points="130,80 150,25 180,90" fill="#e8752c"/>
+  <polygon points="270,80 250,25 220,90" fill="#e8752c"/>
+  <circle cx="160" cy="150" r="11" fill="#2b2118"/>
+  <circle cx="240" cy="150" r="11" fill="#2b2118"/>
+  <polygon points="200,168 188,185 212,185" fill="#2b2118"/>
+  <path d="M140,150 L100,140 M140,158 L100,158 M140,166 L100,176" stroke="#2b2118" stroke-width="2"/>
+  <path d="M260,150 L300,140 M260,158 L300,158 M260,166 L300,176" stroke="#2b2118" stroke-width="2"/>
+  <text x="200" y="270" font-family="Georgia, serif" font-size="20" fill="#4a3521" text-anchor="middle">Brisket, close-up, judging you</text>
+</svg>

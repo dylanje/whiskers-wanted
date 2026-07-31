@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#7fb3a3"/>
+  <ellipse cx="200" cy="180" rx="110" ry="70" fill="#e8752c"/>
+  <circle cx="200" cy="110" r="65" fill="#e8752c"/>
+  <polygon points="150,65 165,20 195,70" fill="#e8752c"/>
+  <polygon points="250,65 235,20 205,70" fill="#e8752c"/>
+  <circle cx="175" cy="105" r="9" fill="#2b2118"/>
+  <circle cx="225" cy="105" r="9" fill="#2b2118"/>
+  <polygon points="200,120 191,133 209,133" fill="#2b2118"/>
+  <text x="200" y="270" font-family="Georgia, serif" font-size="20" fill="#22332e" text-anchor="middle">Brisket, mid-negotiation</text>
+</svg>

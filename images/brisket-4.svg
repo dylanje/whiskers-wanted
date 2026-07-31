@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e6c79c"/>
+  <ellipse cx="200" cy="220" rx="150" ry="30" fill="#c98a4b" opacity="0.4"/>
+  <ellipse cx="200" cy="170" rx="120" ry="60" fill="#e8752c"/>
+  <circle cx="130" cy="150" r="50" fill="#e8752c"/>
+  <polygon points="100,115 108,80 135,120" fill="#e8752c"/>
+  <polygon points="160,115 152,80 125,120" fill="#e8752c"/>
+  <circle cx="112" cy="150" r="8" fill="#2b2118"/>
+  <circle cx="148" cy="150" r="8" fill="#2b2118"/>
+  <polygon points="130,163 121,175 139,175" fill="#2b2118"/>
+  <rect x="260" y="185" width="18" height="45" rx="8" fill="#e8752c"/>
+  <text x="200" y="270" font-family="Georgia, serif" font-size="20" fill="#4a3521" text-anchor="middle">Brisket, plotting something</text>
+</svg>
