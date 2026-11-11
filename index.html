@@ -1,73 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Whisker Wanted</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whiskers Wanted</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>🐾 Whiskers Wanted</h1>
+      <p class="site-subtitle">One cat. One listing. Zero chill.</p>
+    </header>
 
-<header class="site-header">
-  <h1>🐾 Whisker Wanted</h1>
-  <p class="site-subtitle">One cat. One listing. Zero chill.</p>
-</header>
+    <main>
+      <section id="featured-cat" class="cat-card">
+        <div class="adopted-banner" id="adopted-banner" hidden>
+          <span>ADOPTED!</span>
+        </div>
 
-<main>
-  <section id="featured-cat" class="cat-card">
-    <div class="adopted-banner" id="adopted-banner" hidden>
-      <span>ADOPTED!</span>
-    </div>
+        <div class="cat-header">
+          <h2 id="cat-name">Loading…</h2>
+          <p class="tagline" id="cat-tagline"></p>
+        </div>
 
-    <div class="cat-header">
-      <h2 id="cat-name">Loading…</h2>
-      <p class="tagline" id="cat-tagline"></p>
-    </div>
+        <div class="gallery-carousel">
+          <button
+            type="button"
+            class="gallery-nav gallery-prev"
+            id="gallery-prev"
+            aria-label="Previous photo"
+          >
+            &#8249;
+          </button>
+          <div class="gallery" id="cat-gallery"></div>
+          <button
+            type="button"
+            class="gallery-nav gallery-next"
+            id="gallery-next"
+            aria-label="Next photo"
+          >
+            &#8250;
+          </button>
+        </div>
 
-    <div class="gallery-carousel">
-      <button type="button" class="gallery-nav gallery-prev" id="gallery-prev" aria-label="Previous photo">&#8249;</button>
-      <div class="gallery" id="cat-gallery"></div>
-      <button type="button" class="gallery-nav gallery-next" id="gallery-next" aria-label="Next photo">&#8250;</button>
-    </div>
+        <div class="cat-section">
+          <h3>About Me</h3>
+          <p id="cat-bio"></p>
+        </div>
 
-    <div class="cat-section">
-      <h3>About Me</h3>
-      <p id="cat-bio"></p>
-    </div>
+        <div class="cat-section two-col">
+          <div>
+            <h3>Quirks &amp; Talents</h3>
+            <ul id="cat-traits"></ul>
+          </div>
+          <div>
+            <h3>Red Flags</h3>
+            <ul id="cat-redflags"></ul>
+          </div>
+        </div>
 
-    <div class="cat-section two-col">
-      <div>
-        <h3>Quirks &amp; Talents</h3>
-        <ul id="cat-traits"></ul>
-      </div>
-      <div>
-        <h3>Red Flags</h3>
-        <ul id="cat-redflags"></ul>
-      </div>
-    </div>
+        <div class="cta">
+          <a id="email-button" class="email-button" href="#">Email About Me</a>
+          <p class="adopted-note" id="adopted-note" hidden></p>
+        </div>
+      </section>
 
-    <div class="cta">
-      <a id="email-button" class="email-button" href="#">Email About Me</a>
-      <p class="adopted-note" id="adopted-note" hidden></p>
-    </div>
-  </section>
+      <section id="archive" class="archive-section">
+        <h2>The Purr-manent Record</h2>
+        <p class="archive-subtitle">Legends who found their forever couches.</p>
+        <div class="archive-grid" id="archive-grid"></div>
+      </section>
+    </main>
 
-  <section id="archive" class="archive-section">
-    <h2>The Purr-manent Record</h2>
-    <p class="archive-subtitle">Legends who found their forever couches.</p>
-    <div class="archive-grid" id="archive-grid"></div>
-  </section>
-</main>
+    <footer class="site-footer">
+      <p>Made with love (and mild claw damage) for cats everywhere.</p>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="donate.html">Donate</a>
+        <a href="refer.html">Refer a Feline</a>
+      </nav>
+    </footer>
 
-<footer class="site-footer">
-  <p>Made with love (and mild claw damage) for cats everywhere.</p>
-  <nav class="footer-links">
-    <a href="about.html">About</a>
-    <a href="donate.html">Donate</a>
-    <a href="refer.html">Refer a Feline</a>
-  </nav>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

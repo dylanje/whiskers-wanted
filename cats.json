@@ -1,34 +1,23 @@
 {
   "current": {
-    "name": "Brisket",
-    "tagline": "Emotionally unavailable, financially high-maintenance, still an absolute catch",
+    "name": "Sherb",
+    "tagline": "headbutts not optional, financially high-maintenance, still the best boy",
     "status": "available",
     "adoptedDate": null,
-    "bio": "Brisket is a 4-year-old orange tabby with the confidence of a house cat who has never once considered that he might not be the main character. He enjoys long naps in sunbeams he did not earn, aggressive negotiations over canned food, and staring directly into your soul at 3am for reasons he will not disclose. He is looking for someone who understands that love is not about being liked back — it's about being fed on time, every time, no exceptions.",
+    "bio": "Sherb is a 7-to-8 year old orange boy and a former light-heavyweight street fighter. He enjoys never ending butt pats and cheek scratches, aggressive negotiations over canned food, and naps in the sun. He is looking for someone who understands that love is like a road trip — where you are always the driver, and he is the passenger princess demanding snack between naps.",
     "traits": [
-      "Purrs like a diesel engine, exclusively on his own schedule",
-      "Will headbutt you affectionately, then immediately regret it",
-      "Professional-grade sunbeam relocator",
-      "Fluent in judgmental silence",
-      "Excellent at knocking things off surfaces with scientific precision",
-      "Cuddles available between the hours of 9pm-9:15pm only"
+      "Purrs like a diesel engine if he even thinks you are going to pet him",
+      "Utilizes headbutts as a primitive form of communication",
+      "Absolutely under no circumstances will he ever miss a meal",
+      "The sweetest boy under a raggedy exterior",
+      "Despite the printer running out of ink he still displays orange cat behavior"
     ],
     "redFlags": [
-      "Will make prolonged eye contact while pushing your favorite mug off the counter",
-      "Considers 5am zoomies a love language",
-      "Has strong, unspoken opinions about your other pets, your partner, and your life choices",
-      "May 'forget' he knows you exist if you leave for a weekend",
-      "Will sit on the one document you need right now",
-      "Emotionally unavailable except when there is turkey involved"
+      "FIV+ positive, so he will need to be an only cat",
+      "Missing a lot of his teeth, so he requires a mixed diet of wet and dry food",
+      "Demands only the cleanest of litter boxes, and will let you know if you fail to meet his standards"
     ],
-    "photos": [
-      "images/brisket-1.svg",
-      "images/brisket-2.svg",
-      "images/brisket-3.svg",
-      "images/brisket-4.svg",
-      "images/brisket-5.svg",
-      "images/brisket-6.svg"
-    ]
+    "photos": ["images/sherb-1.png", "images/sherb-2.png"]
   },
   "archive": [
     {

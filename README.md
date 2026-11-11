@@ -1,4 +1,4 @@
-# Whisker Wanted 🐾
+# Whiskers Wanted 🐾
 
 A static, single-page cat adoption site. Features one adoptable cat at a
 time with a funny, dating-profile-style listing, plus **The Purr-manent
