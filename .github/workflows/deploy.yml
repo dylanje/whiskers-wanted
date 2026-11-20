@@ -32,5 +32,5 @@ jobs:
           rsync -az --delete \
             --exclude '.git*' --exclude '.github/' \
             --exclude 'README.md' --exclude '.well-known/' \
-            -e "ssh -i ~/.ssh/id_deploy -o IdentitiesOnly=yes" \
+            -e "ssh -i ~/.ssh/id_deploy -o IdentitiesOnly=yes -o BatchMode=yes -v" \
             ./ "$TARGET"
