@@ -24,31 +24,70 @@
           them their own listing.
         </p>
 
-        <form class="contact-form" id="refer-form">
+        <form
+          class="contact-form"
+          id="refer-form"
+          method="POST"
+          action="send-referral.php"
+        >
           <div>
             <label for="your-name">Your Name</label>
-            <input type="text" id="your-name" name="your-name" required />
+            <input
+              type="text"
+              id="your-name"
+              maxlength="100"
+              name="your-name"
+              required
+            />
           </div>
           <div>
             <label for="your-email">Your Email</label>
-            <input type="email" id="your-email" name="your-email" required />
+            <input
+              type="email"
+              id="your-email"
+              maxlength="100"
+              name="your-email"
+              required
+            />
           </div>
           <div>
             <label for="cat-name">Cat's Name</label>
-            <input type="text" id="cat-name" name="cat-name" required />
+            <input
+              type="text"
+              id="cat-name"
+              maxlength="100"
+              name="cat-name"
+              required
+            />
           </div>
           <div>
             <label for="cat-location">City / Area</label>
-            <input type="text" id="cat-location" name="cat-location" />
+            <input
+              type="text"
+              id="cat-location"
+              maxlength="100"
+              name="cat-location"
+            />
           </div>
           <div>
             <label for="cat-story">Tell Us About Them</label>
             <textarea
               id="cat-story"
+              maxlength="5000"
               name="cat-story"
               placeholder="Age, personality, why they need a new home, any quirks we should know about..."
               required
             ></textarea>
+          </div>
+          <div style="position: absolute; left: -9999px" aria-hidden="true">
+            <label
+              >Leave blank
+              <input
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+            /></label>
           </div>
           <button type="submit">Send Referral</button>
         </form>

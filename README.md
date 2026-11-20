@@ -49,8 +49,9 @@ featured cat) and `archive` (past adopted cats).
    ```
 3. Replace the `current` object entirely with the new cat's full profile:
    `name`, `tagline`, `status` (`"available"`), `bio`, `traits`,
-   `redFlags`, and `photos` (an array of image paths). Set `adoptedDate`
-   back to `null`.
+   `redFlags`, and `photos` (an array of image paths). Optionally add
+   `location` (e.g. `"Austin, TX"`); the line is hidden when it's missing.
+   Set `adoptedDate` back to `null`.
 4. Drop the new cat's photos into `images/` and reference them in
    `photos`.
 

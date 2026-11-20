@@ -2,6 +2,7 @@
   "current": {
     "name": "Sherb",
     "tagline": "headbutts not optional, financially high-maintenance, still the best boy",
+    "location": "Austin, TX",
     "status": "available",
     "adoptedDate": null,
     "bio": "Sherb is a 7-to-8 year old orange boy and a former light-heavyweight street fighter. He enjoys never ending butt pats and cheek scratches, aggressive negotiations over canned food, and naps in the sun. He is looking for someone who understands that love is like a road trip — where you are always the driver, and he is the passenger princess demanding snack between naps.",
@@ -17,7 +18,7 @@
       "Missing a lot of his teeth, so he requires a mixed diet of wet and dry food",
       "Demands only the cleanest of litter boxes, and will let you know if you fail to meet his standards"
     ],
-    "photos": ["images/sherb-1.png", "images/sherb-2.png"]
+    "photos": ["images/sherb-1.jpg", "images/sherb-2.jpg"]
   },
   "archive": [
     {

@@ -21,6 +21,7 @@
         <div class="cat-header">
           <h2 id="cat-name">Loading…</h2>
           <p class="tagline" id="cat-tagline"></p>
+          <p class="cat-location" id="cat-location" hidden></p>
         </div>
 
         <div class="gallery-carousel">
@@ -80,6 +81,13 @@
         <a href="refer.html">Refer a Feline</a>
       </nav>
     </footer>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+      <button type="button" class="lightbox-btn lightbox-close" id="lightbox-close" aria-label="Close photo viewer">&times;</button>
+      <button type="button" class="lightbox-btn lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+      <img class="lightbox-img" id="lightbox-img" alt="" />
+      <button type="button" class="lightbox-btn lightbox-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+    </dialog>
 
     <script src="script.js"></script>
   </body>
