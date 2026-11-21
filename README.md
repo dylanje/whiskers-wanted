@@ -59,11 +59,4 @@ That's it — no HTML or JS changes are required for a normal cat swap.
 
 ## Deploying
 
-This is a fully static site. Push the folder as-is to GitHub Pages,
-Netlify, or Vercel — no build command, no framework, no dependencies.
-
-## Updating the adoption email
-
-The placeholder address `adopt@example.com` lives in `script.js` as the
-`ADOPTION_EMAIL` constant. Update it once you have a real inbox to point
-adopters to.
+Push to [main] branch will automatically deploy via Github Actions to the site.
